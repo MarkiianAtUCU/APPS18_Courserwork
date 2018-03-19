@@ -1,0 +1,15 @@
+Щотижневий звіт 1
+
+Зроблено:
+	Ознайомились з даними по OpenCV, вивчаємо його та вчимося ним користуватись
+	сайти:
+	http://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_tutorials.html
+	https://www.pyimagesearch.com/
+
+	Вивчаємо pyautogui
+	http://pyautogui.readthedocs.io/en/latest/index.html
+
+	Навчились працювати з mathplotlib та numpy (поверхнево)
+
+Питання:
+	Немає
