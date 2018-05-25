@@ -22,9 +22,10 @@ python -m pip install --user numpy scipy matplotlib ipython jupyter pandas sympy
 Linux:
 
 ```sh
-sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose```
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+```
 
-2. Install Open CV for python.
+3. Install Open CV for Python.
 ## Release History
 
 ## Meta
