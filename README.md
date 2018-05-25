@@ -30,11 +30,14 @@ sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython
 
 ## Meta
 
-Vitaliy Vorobyov - https://www.facebook.com/v.vorobyov <br>
-  Github - [https://github.com/vorobyovvitaliy] <br>
-Markiian Matsiuk - https://www.facebook.com/Markian.Matsiuk <br>
-  Github - [https://github.com/MarkiianAtUCU] <br>
-  
-  Distributed under the MIT license. See ``LICENSE`` for more information.
+Vitaliy Vorobyov – [@Facebook](https://www.facebook.com/v.vorobyov) – vorobyov@ucu.edu.ua
+
+[GitHub](https://github.com/vorobyovvitaliy)
+
+Markiian Matsiuk – [@Facebook](https://www.facebook.com/Markian.Matsiuk) – matsiuk@ucu.edu.ua
+
+[GitHub](https://github.com/MarkiianAtUCU)
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 ## Contributing
