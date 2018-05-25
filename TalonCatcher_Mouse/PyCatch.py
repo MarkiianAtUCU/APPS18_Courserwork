@@ -45,7 +45,7 @@ previous_success=0
 
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 # face_cascade = cv2.CascadeClassifier('closed_frontal_palm.xml')
-face_cascade = cv2.CascadeClassifier('closed_palm.xml')
+# face_cascade = cv2.CascadeClassifier('cascade.xml')
 
 cap = cv2.VideoCapture(0)
 
