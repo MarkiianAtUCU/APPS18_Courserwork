@@ -12,7 +12,8 @@ face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 
-while 1:
+
+def kek():
     ret, img = cap.read()
 
     gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
@@ -31,10 +32,12 @@ while 1:
         cv2.circle(img, (biggest[0][0][0]+biggest[0][2][0]//2, biggest[0][0][1]+biggest[0][2][1]//2), 10, (0, 0, 255), -1)
         cv2.rectangle(img, biggest[0][0], biggest[0][1], (0, 255, 0), 2)
 
+
     cv2.imshow('img', img)
     k = cv2.waitKey(30) & 0xff
-    if k == 27:
-        break
+    return biggest[0][0][0]+biggest[0][2][0]//2 if biggest else 0
 
-cap.release()
-cv2.destroyAllWindows()
+
+while 1:
+    kek()
+
