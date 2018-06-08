@@ -4,7 +4,6 @@ import random
 import time
 import threading
 import sys
-import dumbmenu as dm
 from threading import Thread
 from operator import itemgetter
 from pygame.locals import *
