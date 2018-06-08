@@ -13,7 +13,6 @@ def find_face(img):
 
     Find faces on photo and returns face coords
     """
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
     faces = detector.detect_faces(img)
     res = []
     for x in faces:
@@ -47,5 +46,7 @@ def main(loc):
     """
     for filename in os.listdir(loc):
         img = cv2.imread(filename)
-        write_info(log, filename, find_face(img))
+        write_info(loc, filename, find_face(img))
     return 0
+
+main("Hands")
